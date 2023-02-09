@@ -54,4 +54,11 @@
     python manage.py runserver
 ```
 
+~ Login
+
+```bash
+    login with: username:newadmin
+                password:1234
+```
+
 ~ Access the website at: [127.0.0.1:8000](http://127.0.0.1:8000)
