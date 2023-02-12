@@ -17,13 +17,13 @@
 ~ Create a virtual environment
 
 ```bash
-    python -m venv .venv
+    python -m venv .env
 ```
 
 ~ Activate the virtual environment
 
 ```bash
-    source .venv/bin/activate
+    source .env/bin/activate
 ```
 
 ~ Install requirements
@@ -49,6 +49,7 @@
 ~ Run the server
 
 ```bash
+    cd onlinebookstore
     source .venv/bin/activate
     pip install -r requirements.txt
     python manage.py runserver

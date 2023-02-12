@@ -30,7 +30,6 @@ def signin(request):
                 return redirect('store:index')
             else:
             	messages.error(request, 'username and password doesn\'t match')
-
     return render(request, "store/login.html")	
 
 
